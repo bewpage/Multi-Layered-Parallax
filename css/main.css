@@ -109,10 +109,11 @@
   background-color: #130d0a; }
 
 .content__text {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 400; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
