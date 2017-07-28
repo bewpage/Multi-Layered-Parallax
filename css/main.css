@@ -57,10 +57,20 @@
       .container .row .col-12 {
         width: 100%; } }
 
-body {
-  font-family: 'Playfair Display', serif;
-  color: #fff; }
+#hero-mobile {
+  display: block;
+  background: url("../img/full_illustration.png") no-repeat center bottom/cover;
+  height: 320px; }
 
+#hero {
+  display: none; }
+
+@media only screen and (min-width: 28.75em) {
+  #hero-mobile {
+    display: none; }
+
+  #hero {
+    display: block; } }
 #hero {
   height: 800px;
   overflow: hidden;
@@ -96,7 +106,13 @@ body {
   background-image: url("../img/ilu_01.png"); }
 
 #content {
-  height: 800px;
   background-color: #130d0a; }
+
+.content__text {
+  font-size: 18px; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

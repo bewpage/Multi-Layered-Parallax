@@ -1,10 +1,23 @@
 //variable
 
-//header section
+// *** view size variable
+$mobile-size: 28.75em;  //460px
+$tablets-size: 40.5em;  //650px
+$pc-size: 1150px;  //1150px
+$test: 40.5em;
+//$menu-pc-height: 115px;
+//$menu-tablet-height: 80px;
+//$menu-mobile-height: 80px;
+
+// *** fonts
+$font-montserrat: 'Montserrat', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+// *** header section
 $bronze: #130d0a;
 $white: #fff;
 $heroHeight: 800px;
 
 
-//content section
+// *** content section
 $contentHeight: 800px;

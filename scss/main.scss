@@ -1,4 +1,10 @@
 @import 'base/_grid_v1_0';
 @import 'base/_variables';
+@import 'layout/_mobile';
 @import 'layout/_header';
 @import 'layout/_content';
+
+body{
+    font-family: $font-roboto;
+    color: $white;
+}
