@@ -1,0 +1,46 @@
+body{
+    font-family: 'Playfair Display', serif;
+    color: $white;
+}
+
+#hero {
+    height: $heroHeight;
+    overflow: hidden;
+    position: relative;
+}
+
+.section__layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    z-index: -1;
+}
+
+.layer-01 {
+    background-image: url('../img/ilu_bg.jpg');
+    background-position: left bottom;
+}
+
+.layer-02 {
+    background-image: url('../img/ilu_03.png');
+}
+
+.layer-03 {
+    background-image: url('../img/ilu_02.png');
+}
+
+.layer-04 {
+    background-image: url('../img/ilu_man.png');
+    background-position: right bottom;
+}
+
+.layer-05 {
+    background-image: url('../img/ilu_overlay.png');
+}
+
+.layer-06 {
+    background-image: url('../img/ilu_01.png');
+}

@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .container .row {
+    margin: 0 5px; }
+    .container .row:before, .container .row:after {
+      content: "";
+      display: block;
+      clear: both; }
+    .container .row [class*="col-"] {
+      float: left;
+      min-height: 1px;
+      width: 100%;
+      padding: 0 5px;
+      margin-right: 2%;
+      margin-bottom: 2%; }
+      .container .row [class*="col-"]:last-child {
+        margin-right: 0%; }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-1 {
+        width: 6.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-2 {
+        width: 15%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-3 {
+        width: 23.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-4 {
+        width: 32%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-5 {
+        width: 40.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-6 {
+        width: 49%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-7 {
+        width: 57.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-8 {
+        width: 66%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-9 {
+        width: 74.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-10 {
+        width: 83%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-11 {
+        width: 91.5%; } }
+    @media only screen and (min-width: 40.5em) {
+      .container .row .col-12 {
+        width: 100%; } }
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #fff; }
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative; }
+
+.section__layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1; }
+
+.layer-01 {
+  background-image: url("../img/ilu_bg.jpg");
+  background-position: left bottom; }
+
+.layer-02 {
+  background-image: url("../img/ilu_03.png"); }
+
+.layer-03 {
+  background-image: url("../img/ilu_02.png"); }
+
+.layer-04 {
+  background-image: url("../img/ilu_man.png");
+  background-position: right bottom; }
+
+.layer-05 {
+  background-image: url("../img/ilu_overlay.png"); }
+
+.layer-06 {
+  background-image: url("../img/ilu_01.png"); }
+
+#content {
+  height: 800px;
+  background-color: #130d0a; }
+
+/*# sourceMappingURL=main.css.map */
